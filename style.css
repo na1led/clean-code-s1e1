@@ -128,6 +128,7 @@ button.delete img {
 }
 button.delete img:hover {
   transform: rotateZ(0);
+  
 }
 
 /* Completed */
