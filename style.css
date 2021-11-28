@@ -10,7 +10,8 @@ body {
   display: block;
   text-align: right;
 }
-.todo-logo img {
+.todo-logo
+ img {
   width: 100%;
 }
 .todo-logo__link {
@@ -109,11 +110,13 @@ input[type="text"]:focus {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+li >
+ * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li >
+ input[type="checkbox"] {
   margin: 0 10px;
 }
 .todo__list__item_name,
@@ -123,21 +126,25 @@ li > input[type="checkbox"] {
   font-size: 18px;
   width: 226px;
 }
-li > input[type="text"] {
+li >
+ input[type="text"] {
   width: 226px;
 }
-.todo__list__btn-delete img {
+.todo__list__btn-delete
+ img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.todo__list__btn-delete img:hover {
+.todo__list__btn-delete
+ img:hover {
   transform: rotateZ(0);
 
 }
 
 /* Completed */
-.todo__list-completed .todo__list__item_name{
+.todo__list-completed
+ .todo__list__item_name{
   text-decoration: line-through;
   color: #888;
 }
@@ -148,11 +155,13 @@ li > input[type="text"] {
   flex-grow: 1;
 }
 
-.editMode .todo__list__item_name_input {
+.editMode
+ .todo__list__item_name_input {
   display: inline-block;
   width: 224px;
 }
 
-.editMode .todo__list__item_name {
+.editMode
+ .todo__list__item_name {
   display: none;
 }
