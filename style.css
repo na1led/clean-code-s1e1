@@ -147,11 +147,11 @@ li > input[type="text"] {
   flex-grow: 1;
 }
 
-li.editMode .todo__list__item_name_input {
+.editMode .todo__list__item_name_input {
   display:inline-block;
   width:224px
 }
 
-li.editMode .todo__list__item_name {
+.editMode .todo__list__item_name {
   display:none;
 }
