@@ -32,7 +32,7 @@ body {
 .todo__list-completed__item_name {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .todo__item_create_input-block {
   display: flex;
@@ -124,7 +124,7 @@ li > input[type="checkbox"] {
   width: 226px;
 }
 li > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .todo__list__btn-delete img {
   height: 2em;
@@ -150,7 +150,7 @@ li > input[type="text"] {
 
 .editMode .todo__list__item_name_input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .editMode .todo__list__item_name {
