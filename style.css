@@ -87,6 +87,7 @@ input[type="text"]:focus {
   color: #333;
 }
 
+
 /* New Task */
 .todo__item_create_name {
   display: block;
