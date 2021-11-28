@@ -38,15 +38,15 @@ body {
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li,
 h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 button {
   background: none;
@@ -144,15 +144,15 @@ li > input[type="text"] {
 
 /* Edit Task */
 .todo__list__item_name_input{
-  display:none;
+  display: none;
   flex-grow: 1;
 }
 
 .editMode .todo__list__item_name_input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .editMode .todo__list__item_name {
-  display:none;
+  display: none;
 }
